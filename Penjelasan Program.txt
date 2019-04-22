@@ -1,0 +1,14 @@
+Penjelasan Program mengandung pewarisan, overriding, access protected.
+
+1. Pewarisan digunakan pada class hobiAnak yang diwariskan kepada class Daftar.
+2. Overriding digunakan pada method sepakBola, buluTangkis, dan membaca yang terdapat pada class daftar.
+3. Access protected terdapat pada method daftarHobi, sepakBola, buluTangkis, dan membaca yang terdapat pada class HobiAnak.
+
+Alur Progam.
+Dalam class HobiAnak terdapat beberapa method, method daftarHobi menampilkan "URUTAN DAFTAR HOBI ANAK-ANAK".
+sedangkan method sepakBola menampilkan "SEPAK BOLA", method buluTangkis menampilkan "BULU TANGKIS", dan method membaca menapmilkan "MEMBACA".
+Dalam class Daftar yang mewarisi class HobiAnak, terdapat overriding untuk method sepakBola menampilkan "Sepak bola adalah hobi yang paling banyak diminati oleh anak-anak", 
+method buluTangkis menampilkan "Bulu tangkis adalah hobi yang peminatnya sedang", dan method membaca menampilkan "Membaca adalah hobi yang jarang diminati oleh anak-anak".
+Dalam kelas Manusia memanggil method-method yang ada dalam class Daftar, dengan outputan tampilan dari setiap method yang ada.
+Setiap pemanggilan method menampilkan tampilan yang berada dalam class Daftar karena method yang berada didalam class HobiAnak telah di override oleh method yang berada dalam
+class Daftar, kecuali method daftarHobi yang outputnya tidak berubah karena tidak di override dalam class Daftar.
